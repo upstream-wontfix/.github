@@ -1,8 +1,12 @@
 # upstream-wontfix
 
 Unofficial clients, SDKs and tools for things whose official software is missing,
-closed, clunky or abandoned: routers, gadgets, apps and services too niche for
-anyone else to bother with.
+closed, clunky or abandoned: routers, gadgets, accessories, apps and services too
+niche for anyone else to bother with.
+
+That includes running devices **without their vendor's cloud**: talking to
+gadgets and accessories directly and locally, even when they normally need a
+cloud account or companion app to work.
 
 The vendor won't fix it, so these do.
 
@@ -10,6 +14,8 @@ The vendor won't fix it, so these do.
 
 - **Niche by design.** Each project scratches one specific itch, usually for one
   device or service.
+- **Local-first.** Where possible, tools talk to your device directly instead of
+  going through a vendor's servers, so it keeps working if the cloud goes away.
 - **AI-assisted.** Most code here was written with an AI coding assistant and
   tested against real hardware or services by a human. It works for the
   configurations listed in each README, and maybe nothing else.
